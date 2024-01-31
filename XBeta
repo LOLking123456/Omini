@@ -1,0 +1,729 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Omini X", HidePremium = false, SaveConfig = true, ConfigFolder = "teleport"})
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Aliens",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Aliens"
+})
+
+
+--------------aliens--------------
+local Chama = {
+    [1] = "OS",
+    [2] = "heatblast",
+    [3] = 120,
+    [4] = true
+}
+
+
+local Besta = {
+    [1] = "OS",
+    [2] = "wildmutt",
+    [3] = 120,
+    [4] = true
+}
+
+
+local Diamante = {
+    [1] = "OS",
+    [2] = "diamond",
+    [3] = 120,
+    [4] = true
+}
+
+
+local Xrl8 = {
+    [1] = "OS",
+    [2] = "xrl8",
+    [3] = 120,
+    [4] = true
+}
+
+
+local MCinzenta = {
+    [1] = "OS",
+    [2] = "graymatter",
+    [3] = 120,
+    [4] = true
+}
+
+
+local fourarms = {
+    [1] = "OS",
+    [2] = "fourarms",
+    [3] = 120,
+    [4] = true
+}
+
+
+local insectoid = {
+    [1] = "OS",
+    [2] = "stinkfly",
+    [3] = 120,
+    [4] = true
+}
+
+
+local Aquatico = {
+    [1] = "OS",
+    [2] = "ripjaws",
+    [3] = 120,
+    [4] = true
+}
+
+
+local ultrat = {
+    [1] = "OS",
+    [2] = "ultrat",
+    [3] = 120,
+    [4] = true
+}
+
+
+local fantasmatico = {
+    [1] = "OS",
+    [2] = "ghostfreak",
+    [3] = 120,
+    [4] = true
+}
+
+
+local boladecanhao = {
+    [1] = "OS",
+    [2] = "cannonbolt",
+    [3] = 120,
+    [4] = true
+}
+
+
+local siposelvagem = {
+    [1] = "OS",
+    [2] = "wildvine",
+    [3] = 120,
+    [4] = true
+}
+
+
+local lobisben = {
+    [1] = "OS",
+    [2] = "blitzwolfer",
+    [3] = 120,
+    [4] = true
+}
+
+
+local benmumia = {
+    [1] = "OS",
+    [2] = "snareoh",
+    [3] = 120,
+    [4] = true
+}
+
+
+local frankenstrike = {
+    [1] = "OS",
+    [2] = "frankenstrike",
+    [3] = 120,
+    [4] = true
+}
+
+
+local glutao = {
+    [1] = "OS",
+    [2] = "upchuck",
+    [3] = 120,
+    [4] = true
+}
+
+
+local megaolhos = {
+    [1] = "OS",
+    [2] = "eyeguy",
+    [3] = 120,
+    [4] = true
+}
+
+
+local gigante = {
+    [1] = "OS",
+    [2] = "waybig",
+    [3] = 120,
+    [4] = true
+}
+
+
+local ditto = {
+    [1] = "OS",
+    [2] = "ditto",
+    [3] = 120,
+    [4] = true
+}
+
+
+local feedback = {
+    [1] = "OS",
+    [2] = "feedback",
+    [3] = 120,
+    [4] = true
+}
+
+
+
+
+
+
+
+----------Transformar nos aliens----------
+
+  
+
+Tab:AddButton({
+	Name = "Besta",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Besta))
+         
+
+	end    
+})
+
+Tab:AddButton({
+	Name = "Chama",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Chama))
+         
+
+	end    
+})
+Tab:AddButton({
+	Name = "Diamante",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Diamante))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Xrl8",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Xrl8))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "MCinzenta",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(MCinzenta))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "4 Bracos",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fourarms))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Insectoid",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(insectoid))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Aquatico",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Aquatico))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Ultra-t",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(ultrat))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Fantasmático",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fantasmatico))
+         
+
+	end    
+})
+
+  
+
+Tab:AddButton({
+	Name = "Sipó Selvagem",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(siposelvagem))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+ 	Name = "Lobisben",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(lobisben))
+         
+
+	end    
+})
+
+
+
+
+
+Tab:AddButton({
+	Name = "Frankenstrike",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(frankenstrike))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "FeedBack",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(feedback))
+         
+
+	end    
+})
+
+
+
+
+
+Tab:AddButton({
+	Name = "Glutao",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(glutao))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Mega Olhos",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(megaolhos))
+         
+
+	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Ditto",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(ditto))
+         
+
+	end    
+})
+
+Tab:AddButton({
+	Name = "Gigante",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(gigante))
+         
+
+	end    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------Omnitrix Recalibrado------------
+
+local Tab = Window:MakeTab({
+	Name = "Recalibrated",
+	Icon = "",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Recalibrated"
+})
+
+--------ALIENS RECALIBRADOS---------
+
+local fogofatuo = {
+    [1] = "AF",
+    [2] = "swampfire",
+    [3] = 240,
+    [4] = true
+}
+
+
+local echoecho = {
+    [1] = "AF",
+    [2] = "echoecho",
+    [3] = 240,
+    [4] = true
+}
+
+
+local enormossauro = {
+    [1] = "AF",
+    [2] = "humungosaur",
+    [3] = 240,
+    [4] = true
+}
+
+
+local arraiajato = {
+    [1] = "AF",
+    [2] = "jetray",
+    [3] = 240,
+    [4] = true
+}
+
+
+local friagem = {
+    [1] = "AF",
+    [2] = "bigchill",
+    [3] = 240,
+    [4] = true
+}
+
+
+local cromatico = {
+    [1] = "AF",
+    [2] = "chromastone",
+    [3] = 240,
+    [4] = true
+}
+
+
+local artropode = {
+    [1] = "AF",
+    [2] = "brainstorm",
+    [3] = 240,
+    [4] = true
+}
+
+
+local macacoaranha = {
+    [1] = "AF",
+    [2] = "spidermonkey",
+    [3] = 240,
+    [4] = true
+}
+
+
+local gosma = {
+    [1] = "AF",
+    [2] = "goop",
+    [3] = 240,
+    [4] = true
+}
+
+
+
+
+
+local Tab111 = Window:MakeTab({
+	Name = "Misc.",
+	Icon = "",
+	PremiumOnly = false
+})
+
+local Section = Tab111:AddSection({
+	Name = "Misc"
+})
+
+Tab111:AddButton({
+	Name = "Walkspeed",
+	Callback = function()
+      	
+         
+  getgenv().WalkSpeedValue = 100 --set your desired walkspeed here
+
+local Player = game:service'Players'.LocalPlayer;
+
+Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+
+Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+
+end)
+
+
+Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+	end    
+})
+
+Tab111:AddButton({
+	Name = "Boost FPS",
+	Callback = function()
+ for _,v in pairs(workspace:GetDescendants()) do
+if v.ClassName == "Part"
+or v.ClassName == "SpawnLocation"
+or v.ClassName == "WedgePart"
+or v.ClassName == "Terrain"
+or v.ClassName == "MeshPart" then
+v.Material = "Plastic"
+end
+end
+end    
+})
+
+Tab111:AddButton({
+	Name = "Full Bright",
+	Callback = function()
+local Light = game:GetService("Lighting")
+
+function dofullbright()
+Light.Ambient = Color3.new(1, 1, 1)
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+end
+
+dofullbright()
+
+Light.LightingChanged:Connect(dofullbright)
+end    
+})
+
+Tab111:AddButton({
+	Name = "Noclip",
+	Callback = function()
+ local Noclip = nil
+local Clip = nil
+
+function noclip()
+	Clip = false
+	local function Nocl()
+		if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+			for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+					v.CanCollide = false
+				end
+			end
+		end
+		wait(0.21) -- basic optimization
+	end
+	Noclip = game:GetService('RunService').Stepped:Connect(Nocl)
+end
+
+function clip()
+	if Noclip then Noclip:Disconnect() end
+	Clip = true
+end
+
+noclip()
+end    
+})
+
+-------tranformar recalibrado---------
+
+
+
+
+Tab:AddButton({
+	Name = "Eco Eco",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(echoecho))
+         
+
+	end    
+})
+
+Tab:AddButton({
+	Name = "Fogo Fatuo",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fogofatuo))
+         
+
+	end    
+})
+
+Tab:AddButton({
+	Name = "Enormossauro",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(enormossauro))
+         
+
+	end    
+})
+
+
+
+
+Tab:AddButton({
+	Name = "Friagem",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(friagem))
+         
+
+	end    
+})
+
+Tab:AddButton({
+	Name = "Arraia Ajato",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(arraiajato))
+         
+
+	end    
+})
+
+Tab:AddButton({
+	Name = "Cromatico",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(cromatico))
+         
+
+	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Macaco-Aranha",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(macacoaranha))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Artrópode",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(artropode))
+         
+
+	end    
+})
+
+
+Tab:AddButton({
+	Name = "Gosma",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(gosma))
+         
+
+	end    
+})
+
+
+
+
+
+
+
+------alienx-------
+
+local Tab = Window:MakeTab({
+	Name = "Celestial Sapien",
+	Icon = "",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Alien X"
+})
+
+--------------------------
+
+
+local alienx = {
+    [1] = "AF",
+    [2] = "alienx",
+    [3] = 240,
+    [4] = true
+}
+
+
+Tab:AddButton({
+	Name = "Alien X",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(alienx))
+ 
+	end    
+})
+
+
+-----Destranformar--------
+local Tab = Window:MakeTab({
+	Name = "UnTransform",
+	Icon = "",
+	PremiumOnly = false
+})
+
+
+
+local Section = Tab:AddSection({
+	Name = "UnTransform"
+})
+
+
+Tab:AddButton({
+	Name = "UnTransform",
+	Callback = function()
+local args = {
+    [1] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UnMorph:FireServer(unpack(args))
+
+end
+})
+
+
+
+
+OrionLib:Init()
